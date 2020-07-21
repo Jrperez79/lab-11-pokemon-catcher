@@ -1,9 +1,8 @@
-import { pokemonArray } from './pokemonRawData.js';
 
-export function getRandomPokemon(array) {
+export function getRandomPokemon(pokemonArray) {
     
     const randomIndex = Math.floor(Math.random() * pokemonArray.length);
 
-    return array[randomIndex];
+    return pokemonArray[randomIndex];
 }
 
