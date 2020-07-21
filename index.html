@@ -9,15 +9,37 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
-    <title>Document</title>
+    <title>Pokemon Catcher</title>
 </head>
 
 <body>
     <header>
-    
+    <h2>Pokemon Catcher</h2>
     </header>
     <main>
-        
+        <section>
+            <h2>Which Pokemon do you wish to capture?</h2>
+            <p>Your get 10 tries!</p>
+            <p id="answer"></p>
+            <div id="guesses">
+                <label>
+                    <span></span>
+                    <input name="pokemon" type="radio" />
+                    <img width="150" height="150"/>
+                </label>
+                <label>
+                    <span></span>
+                    <input name="pokemon" type="radio" />
+                    <img width="150" height="150"/>
+                </label>
+                <label>
+                    <span></span>
+                    <input name="pokemon" type="radio" />
+                    <img width="150" height="150"/>
+                </label>
+            </div>
+            <button class="hidden" id="next">Next</button>
+        </section>
     </main>
     <footer>
        
