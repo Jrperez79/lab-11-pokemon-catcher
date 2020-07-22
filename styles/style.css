@@ -106,3 +106,11 @@ footer {
 .disabled {
     opacity: .3;
 }
+
+input {
+    display: none;
+}
+
+input:checked + img {
+    border: solid 2px yellowgreen
+}
